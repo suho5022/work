@@ -17,7 +17,7 @@ def hello(user):
 #2 html 연결 - 본인 소개 또는 시각화 결과 페이지
 @app.route("/about")
 def about():
-    return render_template('busan1.html', subject="부산중위연령시각화")
+    return render_template('busan1.html', image_file='img/3.jpg')
  
 #3 이미지1 - 자기가 좋아하는 사람 등등 사진
 @app.route("/show1")
